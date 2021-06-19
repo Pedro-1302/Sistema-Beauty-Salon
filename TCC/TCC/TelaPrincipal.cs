@@ -16,5 +16,17 @@ namespace TCC
         {
             InitializeComponent();
         }
+
+        private void agendamentoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Agendamento tela = new Agendamento();
+            tela.Show();
+        }
+
+        private void produtosToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            CadProdutos tela = new CadProdutos();
+            tela.Show();
+        }
     }
 }

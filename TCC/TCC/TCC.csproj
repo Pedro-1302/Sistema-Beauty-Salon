@@ -52,6 +52,16 @@
     <Compile Include="Agendamento.Designer.cs">
       <DependentUpon>Agendamento.cs</DependentUpon>
     </Compile>
+    <Compile Include="BEATIFULDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BEATIFULDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BEATIFULDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BEATIFULDataSet1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="CadAtendente.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,17 +98,33 @@
     <Compile Include="CadServiços.Designer.cs">
       <DependentUpon>CadServiços.cs</DependentUpon>
     </Compile>
+    <Compile Include="controle.cs" />
+    <Compile Include="CadProdutos1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadProdutos1.Designer.cs">
+      <DependentUpon>CadProdutos1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="logincomandos.cs" />
     <Compile Include="CompraProdutos.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="CompraProdutos.Designer.cs">
       <DependentUpon>CompraProdutos.cs</DependentUpon>
     </Compile>
+    <Compile Include="conexao.cs" />
+    <Compile Include="Criar.cs" />
     <Compile Include="Estoque.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Estoque.Designer.cs">
       <DependentUpon>Estoque.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Servicos_at_cad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Servicos_at_cad.Designer.cs">
+      <DependentUpon>Servicos_at_cad.cs</DependentUpon>
     </Compile>
     <Compile Include="ServiçoProdutoUso.cs">
       <SubType>Form</SubType>
@@ -141,8 +167,14 @@
     <EmbeddedResource Include="Estoque.resx">
       <DependentUpon>Estoque.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CadProdutos1.resx">
+      <DependentUpon>CadProdutos1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ServiçoProdutoUso.resx">
       <DependentUpon>ServiçoProdutoUso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Servicos_at_cad.resx">
+      <DependentUpon>Servicos_at_cad.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TelaPrincipal.resx">
       <DependentUpon>TelaPrincipal.cs</DependentUpon>
@@ -156,6 +188,28 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="BEATIFULDataSet.xsc">
+      <DependentUpon>BEATIFULDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BEATIFULDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BEATIFULDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BEATIFULDataSet.xss">
+      <DependentUpon>BEATIFULDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BEATIFULDataSet1.xsc">
+      <DependentUpon>BEATIFULDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="BEATIFULDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BEATIFULDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BEATIFULDataSet1.xss">
+      <DependentUpon>BEATIFULDataSet1.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
